@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 150px;
+    width: 1200px;
+    background-color: royalblue;
+}
+
+.sidebar-left{
+    height: calc(100vh - 100px - 200px);
+    width: 300px;
+
+    background-color: rgb(133, 130, 137);
+    float: left;
+}
+
+.sidebar-right{
+     height: calc(100vh - 100px - 200px);
+    width: 300px;
+
+    background-color: rgb(133, 130, 137);
+    float: right;
+}
+.content{
+    min-height: calc(100vh - 100px - 200px);
+    width: 600px ;
+    padding: 25px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: royalblue;
+    float: left;
+}
+
+.fcol{
+    border: solid 1px blue;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
