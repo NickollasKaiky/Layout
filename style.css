@@ -37,6 +37,26 @@ header {
     color: white;
 }
 
+.sobre:hover .subMenu{
+    visibility: visible;
+    transition: all ease-in-out;
+}
+
+.subMenu{
+    margin-top: 10px;
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 22, 39);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.116);
+}
+
+.subMenu li{
+    list-style: none;
+    float: none;
+}
+
 .sidebar {
     margin-top: 100px;
     width: 25%;
